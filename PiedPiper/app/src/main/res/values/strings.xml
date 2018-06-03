@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">PiedPiper</string>
+
+    <string name="business_name">Pied Piper</string>
+
+    <string name="business_tagline_1">Go Small, or Go Home</string>
+    <string name="business_tagline_2">A Middle-out Compression Solution to make Data Storage Problems smaller. We take compression to a new level with a Weissman Score of 5.2</string>
+
+    <string name="business_website">piedpiper.com</string>
+    <string name="business_location">5230 Penfield Ave, Woodland Hills, CA</string>
+
+    <string name="header_image_desc">Pied Piper Image</string>
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/header_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/header_image_desc"
+            android:src="@drawable/piedpiper_header" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_16dp"
+            android:gravity="center"
+            android:text="@string/business_tagline_1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:gravity="center"
+            android:text="@string/business_tagline_2"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_20sp"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_1dp"
+            android:layout_margin="@dimen/dimen_16dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/business_website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_16dp"
+            android:drawableLeft="@drawable/web"
+            android:drawablePadding="@dimen/dimen_12dp"
+            android:onClick="contactUs"
+            android:text="@string/business_website"
+            android:textColor="@android:color/white"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/dimen_20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/business_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_16dp"
+            android:drawableLeft="@drawable/map_marker"
+            android:drawablePadding="@dimen/dimen_12dp"
+            android:onClick="contactUs"
+            android:text="@string/business_location"
+            android:textColor="@android:color/white"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/dimen_20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
