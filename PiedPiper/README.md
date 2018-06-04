@@ -19,6 +19,22 @@ This application is a business card for **PiedPiper**, *a Start-Up (Fictional Bu
 	<img src="https://i.imgur.com/Av9HQ0U.png" align="PiedPiper - Single Screen App [Working Demo]" />
 </a>
 
+### [Project Review](https://review.udacity.com/#!/reviews/1259535/shared)
+<table border="0">
+	<tr>
+		<td><b>Content Review</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/PiedPiper/Project-Review/1_ContentReview.png" /></td>
+	</tr>
+	<tr>
+		<td><b>Functionality</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/PiedPiper/Project-Review/2_Functionality.png" /></td>
+	</tr>
+	<tr>
+		<td><b>Code Review</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/PiedPiper/Project-Review/3_CodeReview.png" /></td>
+	</tr>
+</table>
+
 ## Credits
 | Drawable | Author | Source |
 | --- | --- | --- |
