@@ -16,7 +16,7 @@ This application is a business card for **PiedPiper**, *a Start-Up (Fictional Bu
 
 ## Working Demo
 <a href="https://www.youtube.com/watch?v=KF2bjeUJQS8" target="_blank">
-	<img src="https://i.imgur.com/Av9HQ0U.png" align="PiedPiper - Single Screen App [Working Demo]" />
+	<img src="https://i.imgur.com/Av9HQ0U.png" alt="PiedPiper - Single Screen App [Working Demo]" />
 </a>
 
 ### [Project Review](https://review.udacity.com/#!/reviews/1259535/shared)
