@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:id="@+id/root_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <!-- Start of Points Board for Cuphead -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cuphead_light"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_8dp"
+                android:padding="@dimen/dimen_8dp"
+                android:text="@string/player_1"
+                android:textColor="@color/cuphead_dark"
+                android:textSize="@dimen/dimen_16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cuphead_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/dimen_4dp"
+                android:text="@string/initial_score"
+                android:textColor="@color/_424242"
+                android:textSize="@dimen/dimen_56sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_150dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/player_1_image_desc"
+                android:src="@drawable/cuphead_running" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="@string/hp_header"
+                        android:textColor="@color/_424242"
+                        android:textSize="@dimen/dimen_16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/cuphead_hp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="@string/initial_hp"
+                        android:textColor="@color/very_high_hp"
+                        android:textSize="@dimen/dimen_36sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/cuphead_shoot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_16dp"
+                android:background="@color/cuphead_dark"
+                android:onClick="cupheadShootAction"
+                android:text="@string/shoot_action_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/cuphead_exmove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_16dp"
+                android:background="@color/cuphead_dark"
+                android:onClick="cupheadExmoveAction"
+                android:text="@string/exmove_action_button"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+        <!-- End of Points Board for Cuphead -->
+
+        <!-- Start of Points Board for Mugman -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/mugman_light"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_8dp"
+                android:padding="@dimen/dimen_8dp"
+                android:text="@string/player_2"
+                android:textColor="@color/mugman_dark"
+                android:textSize="@dimen/dimen_16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mugman_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/dimen_4dp"
+                android:text="@string/initial_score"
+                android:textColor="@color/_424242"
+                android:textSize="@dimen/dimen_56sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_150dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimen_100dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/player_2_image_desc"
+                    android:src="@drawable/mugman_running_2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="@string/hp_header"
+                        android:textColor="@color/_424242"
+                        android:textSize="@dimen/dimen_16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/mugman_hp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="@string/initial_hp"
+                        android:textColor="@color/very_high_hp"
+                        android:textSize="@dimen/dimen_36sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/mugman_shoot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_16dp"
+                android:background="@color/mugman_dark"
+                android:onClick="mugmanShootAction"
+                android:text="@string/shoot_action_button"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/mugman_exmove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_16dp"
+                android:background="@color/mugman_dark"
+                android:onClick="mugmanExmoveAction"
+                android:text="@string/exmove_action_button"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+        <!-- End of Points Board for Mugman -->
+
+    </LinearLayout>
+
+</ScrollView>

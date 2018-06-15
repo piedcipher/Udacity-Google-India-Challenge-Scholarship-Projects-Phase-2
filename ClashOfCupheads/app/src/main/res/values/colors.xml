@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFEB3B</color>
+    <color name="colorPrimaryDark">#F9A825</color>
+    <color name="colorAccent">#FF5252</color>
+
+    <color name="splash_background">#FFD740</color>
+    <color name="game_background">#FFF59D</color>
+
+    <color name="_212121">#212121</color>
+    <color name="_424242">#424242</color>
+
+    <color name="cuphead_dark">#E57373</color>
+    <color name="cuphead_light">#FFCDD2</color>
+    <color name="mugman_dark">#64B5F6</color>
+    <color name="mugman_light">#BBDEFB</color>
+
+    <color name="leading_player">#1B5E20</color>
+    <color name="non_leading_player">#B71C1C</color>
+
+    <color name="very_high_hp">#388E3C</color>
+    <color name="high_hp">#689F38</color>
+    <color name="moderate_hp">#AFB42B</color>
+    <color name="low_hp">#FF9800</color>
+    <color name="very_low_hp">#D32F2F</color>
+</resources>

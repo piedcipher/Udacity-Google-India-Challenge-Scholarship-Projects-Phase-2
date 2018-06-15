@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Clash Of Cupheads</string>
+
+    <string name="splash_images_desc">Image with 2 Lead Characters of the Game</string>
+
+    <string name="player_1">Cuphead</string>
+    <string name="player_1_image_desc">Image of Cuphead - Player 1</string>
+
+    <string name="player_2">Mugman</string>
+    <string name="player_2_image_desc">Image of Mugman - Player 2</string>
+
+    <string name="score_header">Score</string>
+    <string name="hp_header">HP</string>
+
+    <string name="initial_score">0</string>
+    <string name="initial_hp">25</string>
+    <string name="shoot_action_button">Shoot</string>
+    <string name="exmove_action_button">Ex-Move</string>
+    <string name="foul_action_button">Foul</string>
+
+    <string name="reset_button">Reset</string>
+    <string name="alert_message_reset">Do you want to Reset current game?</string>
+    <string name="alert_response_0">No</string>
+    <string name="alert_response_1">Yes</string>
+    <string name="alert_response_2">New Game</string>
+    <string name="alert_response_3">Quit</string>
+    <string name="alert_response_4">OK</string>
+</resources>
