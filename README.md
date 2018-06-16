@@ -61,12 +61,12 @@ This application is a business card for **PiedPiper**, *a Start-Up (Fictional Bu
 
 ---
 
-# [Project 2 - Clash Of Cupheads - Score Keeper app](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/tree/master/ClashOfCupheads)
+# [Project 2 - Clash Of Cupheads - Score Keeper App](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/tree/master/ClashOfCupheads)
 
 The goal is to create an Score Keeper app which gives a user the ability to keep track of the score of two different teams playing a game of your choice
 
 ### About
-This application is a score keeper app, inspired by a indie video-game - <b><a href="https://en.wikipedia.org/wiki/Cuphead" target="_blank">Cuphead</a></b>
+This application is a score keeper app, inspired by an indie video-game - <b><a href="https://en.wikipedia.org/wiki/Cuphead" target="_blank">Cuphead</a></b>
 
 ### App Screenshots
 <table>
@@ -98,6 +98,22 @@ This application is a score keeper app, inspired by a indie video-game - <b><a h
 <a href="https://www.youtube.com/watch?v=r614gx4Z7HE" target="_blank">
 	<img src="https://i.imgur.com/yWPtqOQ.png" alt="Clash Of Cupheads - Score Keeper app [App Video]" />
 </a>
+
+### [Project Review](https://review.udacity.com/#!/reviews/1283876/shared)
+<table border="0">
+	<tr>
+		<td><b>Layout</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/ClashOfCupheads/Project-Review/1_Layout.png" /></td>
+	</tr>
+	<tr>
+		<td><b>Functionality</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/ClashOfCupheads/Project-Review/2_Functionality.png" /></td>
+	</tr>
+	<tr>
+		<td><b>Code Readability</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/ClashOfCupheads/Project-Review/3_CodeReadability.png" /></td>
+	</tr>
+</table>
 
 ### Credits
 | Drawable | Author | Source |
