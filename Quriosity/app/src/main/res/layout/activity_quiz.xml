@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorQuizBackground"
+    tools:context=".QuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Start of Question 1 -->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_12dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/question_1_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:padding="@dimen/dimen_12dp"
+                    android:text="@string/question_1_textview"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_12dp">
+
+                    <RadioGroup
+                        android:id="@+id/question_1_options"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/question_1_option_1_radiobutton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimen_4dp"
+                            android:text="@string/question_1_option_1_radiobutton"
+                            android:textSize="@dimen/dimen_16sp" />
+
+                        <RadioButton
+                            android:id="@+id/question_1_option_2_radiobutton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimen_4dp"
+                            android:text="@string/question_1_option_2_radiobutton"
+                            android:textSize="@dimen/dimen_16sp" />
+
+                        <RadioButton
+                            android:id="@+id/question_1_option_3_radiobutton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimen_4dp"
+                            android:text="@string/question_1_option_3_radiobutton"
+                            android:textSize="@dimen/dimen_16sp" />
+
+                        <RadioButton
+                            android:id="@+id/question_1_option_4_radiobutton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimen_4dp"
+                            android:text="@string/question_1_option_4_radiobutton"
+                            android:textSize="@dimen/dimen_16sp" />
+
+                    </RadioGroup>
+
+                    <TextView
+                        android:id="@+id/question_1_fact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_4dp"
+                        android:background="@color/colorFactBackgoround"
+                        android:padding="@dimen/dimen_8dp"
+                        android:text="@string/question_1_fact"
+                        android:textSize="@dimen/dimen_14sp"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <!-- End of Question 1 -->
+
+        <!-- Start of Question 2 -->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_12dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/question_2_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:padding="@dimen/dimen_12dp"
+                    android:text="@string/question_2_textview"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_12dp">
+
+                    <EditText
+                        android:id="@+id/question_2_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/question_2_hint_edittext"
+                        android:inputType="text" />
+
+                    <TextView
+                        android:id="@+id/question_2_fact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_4dp"
+                        android:background="@color/colorFactBackgoround"
+                        android:padding="@dimen/dimen_8dp"
+                        android:text="@string/question_2_fact"
+                        android:textSize="@dimen/dimen_14sp"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <!-- End of Question 2 -->
+
+        <!-- Start of Question 3 -->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_12dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/question_3_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:padding="@dimen/dimen_12dp"
+                    android:text="@string/question_3_textview"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_12dp">
+
+                    <RadioGroup
+                        android:id="@+id/question_3_options"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/question_3_option_1_radiobutton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimen_4dp"
+                            android:text="@string/question_3_option_1_radiobutton"
+                            android:textSize="@dimen/dimen_16sp" />
+
+                        <RadioButton
+                            android:id="@+id/question_3_option_2_radiobutton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimen_4dp"
+                            android:text="@string/question_3_option_2_radiobutton"
+                            android:textSize="@dimen/dimen_16sp" />
+
+                    </RadioGroup>
+
+                    <TextView
+                        android:id="@+id/question_3_fact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_4dp"
+                        android:background="@color/colorFactBackgoround"
+                        android:padding="@dimen/dimen_8dp"
+                        android:text="@string/question_3_fact"
+                        android:textSize="@dimen/dimen_14sp"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <!-- End of Question 3 -->
+
+        <!-- Start of Question 4 -->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_12dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/question_4_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:padding="@dimen/dimen_12dp"
+                    android:text="@string/question_4_textview"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_12dp">
+
+                    <CheckBox
+                        android:id="@+id/question_4_option_1_checkbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_4dp"
+                        android:text="@string/question_4_option_1_checkbox"
+                        android:textSize="@dimen/dimen_16sp" />
+
+                    <CheckBox
+                        android:id="@+id/question_4_option_2_checkbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_4dp"
+                        android:text="@string/question_4_option_2_checkbox"
+                        android:textSize="@dimen/dimen_16sp" />
+
+                    <CheckBox
+                        android:id="@+id/question_4_option_3_checkbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_4dp"
+                        android:text="@string/question_4_option_3_checkbox"
+                        android:textSize="@dimen/dimen_16sp" />
+
+                    <CheckBox
+                        android:id="@+id/question_4_option_4_checkbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_4dp"
+                        android:text="@string/question_4_option_4_checkbox"
+                        android:textSize="@dimen/dimen_16sp" />
+
+                    <TextView
+                        android:id="@+id/question_4_fact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_4dp"
+                        android:background="@color/colorFactBackgoround"
+                        android:padding="@dimen/dimen_8dp"
+                        android:text="@string/question_4_fact"
+                        android:textSize="@dimen/dimen_14sp"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <!-- End of Question 4 -->
+
+        <!-- Start of Question 5 -->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_12dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/question_5_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:padding="@dimen/dimen_12dp"
+                    android:text="@string/question_5_textview"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_12dp">
+
+                    <EditText
+                        android:id="@+id/question_5_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/question_5_hint_edittext"
+                        android:inputType="text" />
+
+                    <TextView
+                        android:id="@+id/question_5_fact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_4dp"
+                        android:background="@color/colorFactBackgoround"
+                        android:padding="@dimen/dimen_8dp"
+                        android:text="@string/question_5_fact"
+                        android:textSize="@dimen/dimen_14sp"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <!-- End of Question 5 -->
+
+        <!-- Start of Question 6 -->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_12dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/question_6_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:padding="@dimen/dimen_12dp"
+                    android:text="@string/question_6_textview"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_12dp">
+
+                    <CheckBox
+                        android:id="@+id/question_6_option_1_checkbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_4dp"
+                        android:text="@string/question_6_option_1_checkbox"
+                        android:textSize="@dimen/dimen_16sp" />
+
+                    <CheckBox
+                        android:id="@+id/question_6_option_2_checkbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_4dp"
+                        android:text="@string/question_6_option_2_checkbox"
+                        android:textSize="@dimen/dimen_16sp" />
+
+                    <CheckBox
+                        android:id="@+id/question_6_option_3_checkbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_4dp"
+                        android:text="@string/question_6_option_3_checkbox"
+                        android:textSize="@dimen/dimen_16sp" />
+
+                    <CheckBox
+                        android:id="@+id/question_6_option_4_checkbox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_4dp"
+                        android:text="@string/question_6_option_4_checkbox"
+                        android:textSize="@dimen/dimen_16sp" />
+
+                    <TextView
+                        android:id="@+id/question_6_fact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_4dp"
+                        android:background="@color/colorFactBackgoround"
+                        android:padding="@dimen/dimen_8dp"
+                        android:text="@string/question_6_fact"
+                        android:textSize="@dimen/dimen_14sp"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <!-- End of Question 6 -->
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_12dp"
+            android:background="@color/colorPrimary"
+            android:onClick="quizEvaluator"
+            android:text="@string/submit_button"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

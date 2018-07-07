@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Quriosity</string>
+
+    <string name="question_1_textview">Which co-founder of Reddit is also an instructor at Udacity?</string>
+    <string name="question_1_option_1_radiobutton">Alexis Ohanian</string>
+    <string name="question_1_option_2_radiobutton">Steve Huffman</string>
+    <string name="question_1_option_3_radiobutton">Swartz</string>
+    <string name="question_1_option_4_radiobutton">Slowe</string>
+    <string name="question_1_fact">Steve Huffman is one of the co-founder of reddit among above 4 also, an instructor at Udacity\'s Web Development course CS253.</string>
+
+    <string name="question_2_textview">Name of Mascot of Reddit</string>
+    <string name="question_2_answer">Snoo</string>
+    <string name="question_2_hint_edittext">Your Answer</string>
+    <string name="question_2_fact">The Reddit\'s logo and its mascot is a line drawing of an alien nicknamed \"Snoo\".</string>
+
+    <string name="question_3_textview">Is Reddit an open-source project?</string>
+    <string name="question_3_option_1_radiobutton">Yes</string>
+    <string name="question_3_option_2_radiobutton">No</string>
+    <string name="question_3_fact">From June 18, 2008 until September 2017, Reddit was an open source project hosted on GitHub.</string>
+
+    <string name="question_4_textview">Which are the rewards/trophies given to a redditor?</string>
+    <string name="question_4_option_1_checkbox">Open Sorcerer</string>
+    <string name="question_4_option_2_checkbox">White Hat</string>
+    <string name="question_4_option_3_checkbox">Best Post</string>
+    <string name="question_4_option_4_checkbox">New User</string>
+    <string name="question_4_fact">As a way of saying thanks to the people who contribute to Reddit. There are so many trophies.\n\nOpen Sorcerer is given to someone who\'ve contributed to Reddit\'s source code.\n\nWhite hat is given to someone who\'ve RESPONSIBLY probe and report any holes in the reddit code.\n\nNew User is given to someone who\'ve Join Reddit!</string>
+
+    <string name="question_5_textview">What marks the anniversary day of the day you created your Reddit account?</string>
+    <string name="question_5_answer">Cake Day</string>
+    <string name="question_5_answer_2">CakeDay</string>
+    <string name="question_5_hint_edittext">Your Answer</string>
+    <string name="question_5_fact">Redditors commemorate their \"Cake Day\" once a year, on the anniversary of the day their account was created.</string>
+
+    <string name="question_6_textview">Which celebrities have participated in Reddit\'s Secret Santa Exchange?</string>
+    <string name="question_6_option_1_checkbox">Bill Gates</string>
+    <string name="question_6_option_2_checkbox">Arnold Schwarzenegger</string>
+    <string name="question_6_option_3_checkbox">Taylor Swift</string>
+    <string name="question_6_option_4_checkbox">Snoop Dogg</string>
+    <string name="question_6_fact">Reddit started the largest Secret Santa program in the world, which is still in operation to date.\n\nBill Gates, Arnold Schwarzenegger and Snoop Dogg have participated in it.</string>
+
+    <string name="submit_button">Submit</string>
+    <string name="reset_button">Try Again</string>
+
+    <string name="toast_response_0">Try to attempt all the questions</string>
+
+    <string name="alert_response_0_message">Welcome to Quriosity!\n\nAre you curious to know some Interesting Facts about Reddit?\n\nClick on OK to Start</string>
+    <string name="alert_response_0_positive_button">OK</string>
+    <string name="alert_response_1_positive_button">Check Answers</string>
+</resources>
