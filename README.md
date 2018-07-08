@@ -183,8 +183,23 @@ This application is a quiz app. Theme/Topic of the app is - **Interesting Facts 
 	<img src="https://i.imgur.com/HsSahpE.png" alt="Quriosity - Quiz app [App Video]" />
 </a>
 
-### Credits
+### [Project Review](https://review.udacity.com/#!/reviews/1326089/shared)
+<table border="0">
+	<tr>
+		<td><b>Layout</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/Quriosity/Project-Review/1_1_Layout.png" /><br><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/Quriosity/Project-Review/1_2_Layout.png" /></td>
+	</tr>
+	<tr>
+		<td><b>Functionality</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/Quriosity/Project-Review/2_Functionality.png" /></td>
+	</tr>
+	<tr>
+		<td><b>Code Readability</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/Quriosity/Project-Review/3_CodeReadability.png" /></td>
+	</tr>
+</table>
 
+### Credits
 | Drawable | Author | Source |
 | --- | --- | --- |
 | [check.xml](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/blob/master/Quriosity/app/src/main/res/drawable/check.xml) |  [Google](https://twitter.com/Google) |  [Source](https://materialdesignicons.com/icon/check)|
