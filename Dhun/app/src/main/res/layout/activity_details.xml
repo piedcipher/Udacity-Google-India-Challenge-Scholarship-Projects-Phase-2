@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.DetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/album_songs_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/now_playing_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_8dp">
+
+        <ImageView
+            android:id="@+id/song_now_playing_album_art"
+            android:layout_width="@dimen/dimen_50dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:clickable="false"
+            android:contentDescription="@string/now_playing_album_art_image_view"
+            android:src="@drawable/artist_maroon5_album_v" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dimen_8dp"
+            android:layout_weight="4"
+            android:clickable="false"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/song_now_playing_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:padding="@dimen/dimen_4dp"
+                android:text="@string/song_maps"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_16sp" />
+
+            <TextView
+                android:id="@+id/song_now_playing_artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:padding="@dimen/dimen_4dp"
+                android:text="@string/artist_maroon5"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_14sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/song_now_playing_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/now_playing_state_image_view"
+            android:src="@drawable/pause" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/now_playing_bar_expanded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:baselineAligned="false"
+        android:clickable="false"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_12dp"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="false">
+
+            <ImageView
+                android:id="@+id/now_playing_rewind_previous_song"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="@dimen/dimen_4dp"
+                android:adjustViewBounds="true"
+                android:clickable="false"
+                android:contentDescription="@string/now_playing_rewind_previous_song_image_view"
+                android:src="@drawable/rewind" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:clickable="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <SeekBar
+                    android:id="@+id/now_playing_song_seek_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/dimen_8dp"
+                    android:clickable="false" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="@string/now_playing_song_duration_start"
+                            android:textColor="@android:color/white" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/now_playing_song_duration"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:textColor="@android:color/white" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="false">
+
+            <ImageView
+                android:id="@+id/now_playing_fast_forward_next_song"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/dimen_4dp"
+                android:adjustViewBounds="true"
+                android:clickable="false"
+                android:contentDescription="@string/now_playing_fast_forward_next_song_image_view"
+                android:src="@drawable/fast_forward" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

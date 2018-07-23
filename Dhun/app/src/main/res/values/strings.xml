@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Dhun</string>
+
+    <!-- Strings For Tabs -->
+    <string name="albums_fragment_tab_title">Albums</string>
+    <string name="artists_fragment_tab_title">Artists</string>
+    <string name="songs_fragment_tab_title">Songs</string>
+    <string name="playlists_fragment_tab_title">Playlists</string>
+
+    <!-- Strings For Content-Description of all ImageViews in app -->
+    <string name="album_art_image_view">Album Art</string>
+    <string name="now_playing_album_art_image_view">Album Art of Music which is being played right now.</string>
+    <string name="now_playing_state_image_view">Play/Pause Sign which indicates current state of Music which is being played right now and can be used to Play/Pause a song.</string>
+    <string name="now_playing_fast_forward_next_song_image_view">Fast-Forward Sign which can be used to fast-forward to next song.</string>
+    <string name="now_playing_rewind_previous_song_image_view">Rewind Sign which can be used to rewind to previous song.</string>
+
+    <!-- String for activity_main.xml -->
+    <string name="now_playing_song_duration_start">0:00</string>
+
+    <!-- Strings for fragment_songs.xml -->
+    <string name="favorite_songs_button">View Favorites</string>
+
+    <!-- String for activity_favorites.xml -->
+    <string name="favourites_will_appear_here_text_view">Favourites will appear here</string>
+    <string name="view_all_songs_button">View All Songs</string>
+
+    <!-- Strings For Artist Maroon 5 -->
+    <string name="artist_maroon5">Maroon 5</string>
+    <string name="artist_maroon5_album_v">V</string>
+    <string name="song_maps">Maps</string>
+    <string name="song_animals">Animals</string>
+    <string name="song_it_was_always_you">It Was Always You</string>
+    <string name="song_unkiss_me">Unkiss Me</string>
+    <string name="song_sugar">Sugar</string>
+    <string name="song_leaving_california">Leaving California</string>
+    <string name="song_in_your_pocket">In Your Pocket</string>
+    <string name="song_new_love">New Love</string>
+    <string name="song_coming_back_for_you">Coming Back For You</string>
+    <string name="song_feelings">Feelings</string>
+    <string name="song_my_heart_is_open">My Heart Is Open</string>
+    <string name="song_this_summer">This Summer</string>
+    <string name="song_shoot_love">Shoot Love</string>
+    <string name="song_lost_stars">Lost Stars</string>
+    <string name="artist_maroon5_album_overexposed">Overexposed</string>
+    <string name="song_one_more_night">One More Night</string>
+    <string name="song_payphone">Payphone</string>
+    <string name="song_daylight">Daylight</string>
+    <string name="song_lucky_strike">Lucky Strike</string>
+    <string name="song_the_man_who_never_lied">The Man Who Never Lied</string>
+    <string name="song_love_somebody">Love Somebody</string>
+    <string name="song_lady_killer">Lady Killer</string>
+    <string name="song_fortune_teller">Fortune Teller</string>
+    <string name="song_sad">Sad</string>
+    <string name="song_tickets">Tickets</string>
+    <string name="song_doin_dirt">Doin\' Dirt</string>
+    <string name="song_beautiful_goodbye">Beautiful Goodbye</string>
+    <string name="song_wipe_your_eyes">Wipe Your Eyes</string>
+    <string name="song_wasted_years">Wasted Years</string>
+    <string name="song_lets_stay_together">Let\'s Stay Together</string>
+    <string name="song_moves_like_jagger">Moves Like Jagger</string>
+    <string name="artist_maroon5_album_red_pill_blues">Red Pill Blues</string>
+    <string name="song_best_4_u">Best 4 U</string>
+    <string name="song_what_lovers_do">What Lovers Do</string>
+    <string name="song_wait">Wait</string>
+    <string name="song_lips_on_you">Lips On You</string>
+    <string name="song_bet_my_heart">Bet My Heart</string>
+    <string name="song_help_me_out">Help Me Out</string>
+    <string name="song_who_i_am">Who I Am</string>
+    <string name="song_whiskey">Whiskey</string>
+    <string name="song_girls_like_you">Girls Like You</string>
+    <string name="song_closure">Closure</string>
+    <string name="song_denim_jacket">Denim Jacket</string>
+    <string name="song_visions">Visions</string>
+    <string name="song_plastic_rose">Plastic Rose</string>
+    <string name="song_dont_wanna_know">Don\'t Wanna Know</string>
+    <string name="song_cold">Cold</string>
+
+
+    <!-- Strings For Artist Taylor Swift -->
+    <string name="artist_taylor_swift">Taylor Swift</string>
+    <string name="artist_taylor_swift_album_1989">1989</string>
+    <string name="song_welcome_to_new_york">Welcome To New York</string>
+    <string name="song_blank_space">Blank Space</string>
+    <string name="song_style">Style</string>
+    <string name="song_out_of_the_woods">Out Of The Woods</string>
+    <string name="song_all_you_had_to_do_was_stay">All You Had To Do Was Stay</string>
+    <string name="song_shake_it_off">Shake It Off</string>
+    <string name="song_i_wish_you_would">I Wish You Would</string>
+    <string name="song_bad_blood">Bad Blood</string>
+    <string name="song_wildest_dreams">Wildest Dreams</string>
+    <string name="song_how_you_get_the_girl">How You Get The Girl</string>
+    <string name="song_this_love">This Love</string>
+    <string name="song_i_know_places">I Know Places</string>
+    <string name="song_clean">Clean</string>
+    <string name="artist_taylor_swift_album_red">Red</string>
+    <string name="song_state_of_grace">State Of Grace</string>
+    <string name="song_red">Red</string>
+    <string name="song_treacherous">Treacherous</string>
+    <string name="song_i_knew_you_were_trouble">I Knew You Were Trouble</string>
+    <string name="song_all_too_well">All Too Well</string>
+    <string name="song_22">22</string>
+    <string name="song_i_almost_do">I Almost Do</string>
+    <string name="song_we_are_never_ever_getting_back_together">We Are Never Ever Getting Back Together</string>
+    <string name="song_stay_stay_stay">Stay Stay Stay</string>
+    <string name="song_the_last_time">The Last Time</string>
+    <string name="song_holy_ground">Holy Ground</string>
+    <string name="song_beautiful_tragic">Beautiful Tragic</string>
+    <string name="song_the_lucky_one">The Lucky One</string>
+    <string name="song_everything_has_changed">Everything Has Changed</string>
+    <string name="song_starlight">Starlight</string>
+    <string name="song_begin_again">Begin Again</string>
+
+    <!-- Strings For Artist Michael Jackson -->
+    <string name="artist_michael_jackson">Michael Jackson</string>
+    <string name="artist_michael_jackson_album_xscape">Xscape</string>
+    <string name="song_love_never_felt_so_good">Love Never Felt So Good</string>
+    <string name="song_chicago">Chicago</string>
+    <string name="song_loving_you">Loving You</string>
+    <string name="song_a_place_with_no_name">A Place With No Name</string>
+    <string name="song_slave_to_the_rhythm">Slave To The Rhythm</string>
+    <string name="song_blue_gangsta">Blue Gangsta</string>
+    <string name="song_xscape">Xscape</string>
+
+    <!-- Strings For Artist Tame Impala -->
+    <string name="artist_tame_impala">Tame Impala</string>
+    <string name="artist_tame_impala_album_currents">Currents</string>
+    <string name="song_let_it_happen">Let It Happen</string>
+    <string name="song_nangs">Nangs</string>
+    <string name="song_the_moment">The Moment</string>
+    <string name="song_yes_im_changing">Yes I\'m Changing</string>
+    <string name="song_eventually">Eventually</string>
+    <string name="song_gossip">Gossip</string>
+    <string name="song_the_less_i_know_the_better">The Less I Know The Better</string>
+    <string name="song_past_life">Past Life</string>
+    <string name="song_disciples">Disciples</string>
+    <string name="song_cause_im_a_man">\'Cause I\'m A Man</string>
+    <string name="song_reality_in_motion">Reality In Motion</string>
+    <string name="song_love_paranoia">Love\/Paranoia</string>
+    <string name="song_new_person_same_old_mistakes">New Person, Same Old Mistakes</string>
+
+    <!-- Strings For Artist Jonathan Young -->
+    <string name="artist_jonathan_young">Jonathan Young</string>
+    <string name="artist_jonathan_young_pokejon">Pokéjon</string>
+    <string name="song_pokemon_theme">Pokémon Theme</string>
+    <string name="song_viridian_city">Viridian City</string>
+    <string name="song_double_trouble">Double Trouble</string>
+    <string name="song_unbeatable">Unbeatable</string>
+    <string name="song_pokerap">Pokérap</string>
+    <string name="song_mistys_song">Misty\'s Song</string>
+    <string name="song_johto">Johto</string>
+    <string name="song_what_kind_of_pokemon_are_you">What Kind of Pokémon Are You?</string>
+    <string name="song_this_dream">This Dream</string>
+    <string name="song_2BA_master">2.B.A Master</string>
+
+</resources>
