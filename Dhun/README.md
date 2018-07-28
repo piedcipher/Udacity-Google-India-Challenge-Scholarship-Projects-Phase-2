@@ -47,6 +47,26 @@ This application is a Structure of a Music Player, so It's not an actual Music P
 	<img src="https://i.imgur.com/hujwoim.png" alt="Dhun - Musical Structure app [App Video]" />
 </a>
 
+## [Project Review](https://review.udacity.com/#!/reviews/1358710/shared)
+<table border="0">
+	<tr>
+		<td><b>App Design</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/Dhun/Project-Review/1_AppDesign.png" /></td>
+	</tr>
+	<tr>
+		<td><b>Layout</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/Dhun/Project-Review/2_Layout.png" /></td>
+	</tr>
+	<tr>
+		<td><b>Code Quality</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/Dhun/Project-Review/3_CodeQuality.png" /></td>
+	</tr>
+	<tr>
+		<td><b>Functionality</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/Dhun/Project-Review/4_Functionality.png" /></td>
+	</tr>
+</table>
+
 ## Credits
 | Drawable | Source |
 | --- | --- |
