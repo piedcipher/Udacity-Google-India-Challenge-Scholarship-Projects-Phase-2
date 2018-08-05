@@ -1,11 +1,14 @@
 package com.wordpress.piedcipher.dhun.activities;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -29,12 +32,30 @@ public class MainActivity extends AppCompatActivity {
     private TextView mNowPlayingSongDuration;
     private ImageView mNowPlayingSongAlbumArt;
     private ImageView mNowPlayingSongState;
+    private MenuItem mEasterEgg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initializer();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.easter_egg, menu);
+        mEasterEgg = menu.findItem(R.id.easter_egg);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.easter_egg:
+                startActivity(new Intent(MainActivity.this, EasterEggActivity.class));
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
@@ -154,6 +175,14 @@ public class MainActivity extends AppCompatActivity {
         mNowPlayingSongArtist.setText(DhunDataUtil.getNowPlayingSongArtist());
         mNowPlayingSongAlbumArt.setImageResource(DhunDataUtil.getNowPlayingSongAlbumArt());
         mNowPlayingSongDuration.setText(DhunDataUtil.getNowPlayingSongDuration());
+
+        if(mEasterEgg != null) {
+            if(mNowPlayingSongTitle.getText().toString().equals(getString(R.string.song_pokemon_theme))) {
+                mEasterEgg.setVisible(true);
+            } else {
+                mEasterEgg.setVisible(false);
+            }
+        }
     }
 
     /**
