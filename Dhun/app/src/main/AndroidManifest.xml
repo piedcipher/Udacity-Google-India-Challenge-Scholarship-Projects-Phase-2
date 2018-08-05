@@ -21,7 +21,8 @@
         <activity
             android:name=".activities.DetailsActivity"
             android:parentActivityName=".activities.MainActivity" />
-        <activity android:name=".activities.FavouritesActivity"></activity>
+        <activity android:name=".activities.FavouritesActivity" />
+        <activity android:name=".activities.EasterEggActivity"></activity>
     </application>
 
 </manifest>

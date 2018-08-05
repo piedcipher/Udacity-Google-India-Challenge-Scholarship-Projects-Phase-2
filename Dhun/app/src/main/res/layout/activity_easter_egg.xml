@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFavoritesActivitiyBackground"
+    tools:context=".activities.EasterEggActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="@dimen/dimen_18sp"
+            android:textColor="@android:color/white"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:padding="@dimen/dimen_8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/easter_egg_info_1" />
+
+        <ImageView
+            android:layout_margin="@dimen/dimen_8dp"
+            android:id="@+id/dacing_charmander"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="false" />
+
+        <TextView
+            android:textSize="@dimen/dimen_18sp"
+            android:textColor="@android:color/white"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:padding="@dimen/dimen_8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/easter_egg_info_2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/dimen_8dp">
+
+            <Button
+                android:id="@+id/open_original_video"
+                android:onClick="openMusicVideoOnYoutube"
+                android:textColor="@android:color/white"
+                android:background="@color/colorAccent"
+                android:text="@string/open_original_song_youtube_button"
+                android:layout_margin="@dimen/dimen_4dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/open_cover_video"
+                android:onClick="openMusicVideoOnYoutube"
+                android:textColor="@android:color/white"
+                android:background="@color/colorAccent"
+                android:text="@string/open_cover_song_youtube_button"
+                android:layout_margin="@dimen/dimen_4dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
