@@ -152,4 +152,13 @@
     <string name="song_this_dream">This Dream</string>
     <string name="song_2BA_master">2.B.A Master</string>
 
+    <!-- Strings For easter_egg.xml -->
+    <string name="pokeball_title">Click to open Easter-Egg</string>
+
+    <!-- Strings For activity_easter_egg.xml -->
+    <string name="easter_egg_info_0">Nostalgia meter is freakin\' MAX!!</string>
+    <string name="easter_egg_info_1">The Original \"Pokémon Theme\" (also known as "Gotta Catch \'Em All\") is a song written by John Siegler and John Loeffler and performed by Jason Paige.\n\nIt was the theme song for the first season of the English adaptation of the Pokémon anime.\n\nSince its release, the song has been virtually synonymous with the Pokémon franchise because the line \"Gotta Catch \'Em All\" has become its official slogan.</string>
+    <string name="easter_egg_info_2">This \"Pokémon Theme\" Metal Cover is performed by \"Jonathan Young\" and the original singer \"Jason Paige\".</string>
+    <string name="open_original_song_youtube_button">View Original</string>
+    <string name="open_cover_song_youtube_button">View Cover</string>
 </resources>
