@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/places_tab"
+        android:icon="@drawable/map_marker"
+        android:title="" />
+
+    <item
+        android:id="@+id/restaurants_tab"
+        android:icon="@drawable/silverware_fork_knife"
+        android:title="" />
+
+    <item
+        android:id="@+id/hotels_tab"
+        android:icon="@drawable/hotel"
+        android:title="" />
+
+    <item
+        android:id="@+id/event_tab"
+        android:icon="@drawable/calendar"
+        android:title="" />
+
+</menu>

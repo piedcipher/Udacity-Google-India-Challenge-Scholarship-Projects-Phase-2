@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D32F2F</color>
+    <color name="colorPrimaryDark">#B71C1C</color>
+    <color name="colorAccent">#FFD740</color>
+    <color name="colorUnselectedTab">#E0E0E0</color>
+    <color name="_424242">#424242</color>
+    <color name="_212121">#212121</color>
+    <color name="colorFragmentBackground">#FFF</color>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/open_in_google_maps"
+        android:icon="@drawable/google_maps"
+        android:title="@string/open_in_google_maps"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/view_on_wikipedia"
+        android:icon="@drawable/wikipedia"
+        android:title="@string/view_on_wikipedia"
+        app:showAsAction="ifRoom" />
+</menu>

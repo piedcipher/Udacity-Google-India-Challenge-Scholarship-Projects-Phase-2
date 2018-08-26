@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Aapnu Amdavad</string>
+
+    <string name="alert_message">\"Aapnu Amdavad\" is a Tour Guide App for Ahmedabad City \(also known as Amdavad\) in the state of Gujarat.</string>
+    <string name="alert_response">OK</string>
+
+    <string name="event_content_description">Photo of Event</string>
+    <string name="hotel_content_description">Photo of Hotel</string>
+    <string name="restaurant_content_description">Photo of Restaurant</string>
+    <string name="place_content_description">Photo of Place</string>
+    <string name="place_restaurant_hotel_content_description">Photo of Place, Restaurant Or Hotel</string>
+
+    <!-- Strings for Tabs -->
+    <string name="places_tab">Places</string>
+    <string name="restaurants_tab">Restaurants</string>
+    <string name="hotels_tab">Hotels</string>
+    <string name="events_tab">Events</string>
+
+    <!-- Common Strings for Places, Restaurants, Hotels, Events -->
+    <string name="open_in_google_maps">Open in Google Maps</string>
+    <string name="view_more_details">View more Details</string>
+    <string name="about_text_view">About</string>
+    <string name="rating_text_view">Rating</string>
+    <string name="review_text_view">Review</string>
+    <string name="contact_number_text_view">Contact Number</string>
+
+    <!-- Strings for Places -->
+    <string name="view_on_wikipedia">View on Wikipedia</string>
+    <string name="place_sidi_saiyyed_mosque">Sidi Saiyyed Mosque</string>
+    <string name="place_description_sidi_saiyyed_mosque">The Sidi Saiyyed Mosque, popularly known as Sidi Saiyyid ni Jali locally, built in 1572\-73 AD (Hijri year 980), is one of the most famous mosques of Ahmedabad, Gujarat, India. As attested by the marble tablet fixed on the wall of the mosque, it was built by Sidi Saiyyid in the retinue of Bilal Jhajar Khan, general in the army of the last Sultan Shams\-ud\-Din Muzaffar Shah III of the Gujarat Sultanate.\n\nThe mosque was built in the last year of the existence of Gujarat Sultanate. The mosque is entirely arcuated and is famous for beautifully carved ten stone latticework windows (jalis) on the side and rear arches.\n\nThe rear wall is filled with square stone pierced panels in geometrical designs. The two bays flanking the central aisle have reticulated stone slabs carved in designs of intertwined trees and foliage and a palm motif. This intricately carved lattice stone window is the Sidi Saiyyed Jali, the unofficial symbol of city of Ahmedabad and the inspiration for the design of the logo of the Indian Institute of Management Ahmedabad.</string>
+    <string name="place_wiki_title_sidi_saiyyed_mosque">Sidi_Saiyyed_Mosque</string>
+    <string name="place_sabarmati_ashram">Sabarmati Ashram</string>
+    <string name="place_description_sabarmati_ashram">Sabarmati Ashram (also known as Gandhi Ashram, Harijan Ashram, or Satyagraha Ashram) is located in the Sabarmati suburb of Ahmedabad, Gujarat, adjoining the Ashram Road, on the banks of the River Sabarmati, four miles from the town hall. This was one of the residences of Mahatma Gandhi who lived there for about twelve years along with his wife Kasturba Gandhi.\n\nIt was from his base here that Gandhi led the Dandi march also known as the Salt Satyagraha on 12 March 1930. In recognition of the significant influence that this march had on the Indian independence movement the Indian government has established the ashram as a national monument.</string>
+    <string name="place_wiki_title_sabarmati_ashram">Sabarmati_Ashram</string>
+    <string name="place_kankaria_lake">Kankaria Lake</string>
+    <string name="place_description_kankaria_lake">Kankaria Lake, formerly known as Hauj-e-Qutb, is the second largest lake in Ahmedabad, Gujarat, India. It is located in the south-eastern part of the city, in the Maninagar area. It was completed in 1451 during the reign of Sultan Qutb-ud-Din Ahmad Shah II though its origin is placed in the Chaulukya period sometimes.\n\nA lakefront is developed around it, which has many public attractions such as a zoo, toy train, kids city, tethered balloon ride, water rides, water park, food stalls, and entertainment facilities. The lakefront was revamped in 2008. Kankaria Carnival is a week-long festival held here in the last week of December. Many cultural, art, and social activities are organised during the carnival.</string>
+    <string name="place_wiki_title_kankaria_lake">Kankaria_Lake</string>
+    <string name="place_sabarmati_riverfront">Sabarmati Riverfront</string>
+    <string name="place_description_sabarmati_riverfront">Sabarmati Riverfront is a waterfront being developed along the banks of Sabarmati river in Ahmedabad, India. Proposed in 1960s, the construction began in 2005. Since 2012, the waterfront is gradually opened to public as and when facilities are constructed and various facilities are actively under construction. The major objectives of project are environment improvement, social infrastructure and sustainable development.</string>
+    <string name="place_wiki_title_sabarmati_riverfront">Sabarmati_Riverfront</string>
+    <string name="place_law_garden">Law Garden</string>
+    <string name="place_description_law_garden">Law Garden is a public garden in the city of Ahmedabad, India. The market outside the garden is very famous for the handicraft goods sold by local people. The road at the side of the garden is filled with street hawkers selling all kinds of food items.\n\nThe Law Garden eatery market would be regularized. The standing committee has asked the municipal commissioner to get the design and policy prepared. The regularization will help generate employment and will help the civic body to keep a close watch on the quality of food served there.\n\nThe Law Garden eatery market would be regularized. The standing committee has asked the municipal commissioner to get the design and policy prepared. The regularization will help generate employment and will help the civic body to keep a close watch on the quality of food served there.</string>
+    <string name="place_wiki_title_law_garden">Law_Garden</string>
+
+    <!-- Strings for Events -->
+    <string name="date_text_view">Date</string>
+    <string name="event_five_star_ke_lol_stars">5 Star ke LOLStars</string>
+    <string name="event_venue_five_star_ke_lol_stars">H. K. Hall, Ahmedabad</string>
+    <string name="event_description_five_star_ke_lol_stars">A LOLStars Comedy night promises you an evening of the finest comics giving you new comedy, which is guaranteed to leave you red in the face and give your abs a good workout. You will see one of the top comics on tour, supported by a rising star who has recently brought comedy club audiences to its collective knees. Keep checking this page because more and more shows will keep getting announced - and more cities as well. There could be a few surprises in there as well!</string>
+    <string name="event_date_five_star_ke_lol_stars">August 25, 2018 | 8:30 PM</string>
+    <string name="event_beardothon_ahmedabad">BeardoThon Ahmedabad</string>
+    <string name="event_venue_beardothon_ahmedabad">Sabarmati Riverfront Arena</string>
+    <string name="event_description_beardothon_ahmedabad">Inviting all men and women to run and raise awareness on men\'s health and cancer in the 2nd Edition of BeardoThon in Ahmedabad.\n\nYou don\'t have to be a professional athlete to participate! Join Bharat Beard Club in making India and Indian men fit and raise awareness. Women are invited to support the men in their lives.\n\nRun and raise awareness on men's health and cancer!</string>
+    <string name="event_date_beardothon_ahmedabad">September 23, 2018 | 6 AM</string>
+    <string name="event_flutter_study_jams_gdg_ahmedabad">Flutter Study Jams</string>
+    <string name="event_venue_flutter_study_jams_gdg_ahmedabad">Simform Solutions Pvt. Ltd.</string>
+    <string name="event_description_flutter_study_jams_gdg_ahmedabad">Flutter Study Jams are Community-run study groups based on the Flutter Udacity Course. Participants learn how to use Flutter to develop high-quality, interactive mobile applications for iOS and Android devices.\n\nWant to get started on building Flutter apps?\n\nJoin GDG Ahmedabad and WTM Ahmedabad for our Flutter Study Jam! Together we'll learn from Flutter Udacity Course prepared by Google instructors. You will be able to get hands-on experience with Flutter and build a Flutter app while learning the fundamentals.</string>
+    <string name="event_date_flutter_study_jams_gdg_ahmedabad">August 11, 2018 | 10 AM</string>
+    <string name="event_comedy_factory_show">The Comedy Factory Show</string>
+    <string name="event_venue_comedy_factory_show">H. K. Hall, Ahmedabad</string>
+    <string name="event_description_comedy_factory_show">The Comedy Factory Show” is a wholesome Gujarati Show where The Comedy Factory artists, Manan Desai, Ojas Rawal, Chirayu Mistry, Aariz Saiyed and Deep Vaidya will be performing. Along with the regular Stand up acts you\'ve seen before, this time, you'll also get to see Musical comedy and Improv Comedy. Musical comedy will get you grooving with laughter and Improv Comedy is an unrehearsed, on the spot comedy form in which the audience is asked to participate as well.</string>
+    <string name="event_date_comedy_factory_show">July 14, 2018 | 08:30 PM</string>
+
+    <!-- Strings for Hotels -->
+    <string name="hotel_cama_hotel">Cama Hotel</string>
+    <string name="hotel_description_cama_hotel">On the banks of the Sabarmati, just beyond the ramparts of the old city walls, lies Cama Hotels \- an oasis of comfort for the discerning business traveler.\n\nA landmark of both culture and comfort, in the glorious city of Ahmedabad, the hotel has an enviable location in the heart of all business and shopping areas, \- only 11 km away from the airport and 3 km from the railway station.\n\nThe vaunted Cama hospitality \- renowned since 1960 \- envelops you right from the moment you drive up to the entrance and are warmly greeted by the doorman. Shuttered doors, with wrought-iron grilles and bevelled glass, offer you a tantalizing glimpse of the warmth that beckons from within.\n\nAs Ahmedabad\'s first 4 Star Luxury Hotel since 1960, Cama Hotel is perhaps the only place in the city where you can savor old world charm, amidst the fragrance of blossoming gardens.</string>
+    <string name="hotel_review_cama_hotel">4.1</string>
+    <string name="hotel_rating_cama_hotel">4\-Star Hotel</string>
+    <string name="hotel_contact_number_cama_hotel">+91 079 2560 1234</string>
+    <string name="hotel_radisson_blu">Radisson Blu</string>
+    <string name="hotel_description_radisson_blu">Whether you’re in Ahmedabad for a productive business meeting or want to dive into local culture on vacation, the Radisson Blu Hotel Ahmedabad has the perfect room for you. Ideal for both business and leisure travelers, our hotel is just five minutes from important attractions like the Indian Institute of Management (IIM) Ahmedabad, Gujarat University Exhibition and Convention Centre, and Gandhi Ashram at Sabarmati. After making the easy 20-minute commute from the AMD airport, explore nearby scenic attractions like Kankaria Lake.</string>
+    <string name="hotel_review_radisson_blu">4.3</string>
+    <string name="hotel_rating_radisson_blu">5\-Star hotel</string>
+    <string name="hotel_contact_number_radisson_blu">+91 079 4050 1234</string>
+    <string name="hotel_hyatt_regency">Hyatt Regency</string>
+    <string name="hotel_description_hyatt_regency">Hyatt Regency Ahmedabad offers the quintessential location for both business and leisure travelers. Make yourself at home in your spacious guestroom to the gourmet room service, or lounge at the pool between meetings. Here, you’ll find that productivity and relaxation are constants during your time in Ahmedabad.</string>
+    <string name="hotel_review_hyatt_regency">4.5</string>
+    <string name="hotel_rating_hyatt_regency">5\-Star hotel</string>
+    <string name="hotel_contact_number_hyatt_regency">+91 079 4017 1234</string>
+    <string name="hotel_crowne_plaza">Crowne Plaza</string>
+    <string name="hotel_description_crowne_plaza">At Crowne Plaza Ahmedabad City Centre, every stay feels like a stimulating experience. Conveniently located in the central business district of Ahmedabad and close to the airport, the hotel is easily accessible to business districts of SG Highway and Sanand.\n\nBe it for business or leisure, Crowne Plaza Ahmedabad provides a wide range of services guaranteed to satisfy the needs of the most discerning guests. Paired with a peaceful and comfortable atmosphere the hotel offers 200 spacious, inviting guestrooms to choose from.</string>
+    <string name="hotel_review_crowne_plaza">4.4</string>
+    <string name="hotel_rating_crowne_plaza">5\-Star hotel</string>
+    <string name="hotel_contact_number_crowne_plaza">+91 079 6777 9000</string>
+
+    <!-- Strings for Restaurants -->
+    <string name="timings_text_view">Timings</string>
+    <string name="restaurant_patang_restaurant">Patang Restaurant</string>
+    <string name="restaurant_description_patang_restaurant">The Neelkanth Patang Revolving Restaurant is one of its kind restaurant in Ahmedabad which at a splendid height of 221 Feet gives a splendid view of the entire city. It towers over the skyline and is one of the most unique experiences where one can relish the delicious multi cuisine in a spectacular setting while soaking in the spectacular view of the city.  It is even better during the night where one can see the lights glittering all over the city and highlighting its skyline even more.\n\nThe food in Neelkanth- Patang Revolving Restaurant is also not overshadowed by the ambience either and is an equal attraction to draw the guests towards the magnificent restaurant and since its multi-cuisine there is something for everyone to chose from as per their preference.</string>
+    <string name="restaurant_timings_patang_restaurant">12Noon \- 3:15PM and 7PM \- 11PM</string>
+    <string name="restaurant_contact_number_patang_restaurant">+91 079 2658 6200</string>
+    <string name="restaurant_review_patang_restaurant">3.7</string>
+    <string name="restaurant_jungle_bhookh">Jungle Bhookh</string>
+    <string name="restaurant_description_jungle_bhookh">Junglebhookh aim is to provide the best in both food and service. We trust you will enjoy our hospitality, to the level that we would welcome any suggestions or comments that you may have in order to complete your satisfaction. Welcome to a delicious feast of exquisite cuisine in JungleBhookh Restaurant. With a wide range of dishes to choose from, we guarantee you a sumptuous feast experience in our restaurant.</string>
+    <string name="restaurant_timings_jungle_bhookh">11AM \- 3PM and 7PM \- 11PM</string>
+    <string name="restaurant_contact_number_jungle_bhookh">+91 079 2640 8200</string>
+    <string name="restaurant_review_jungle_bhookh">3.7</string>
+    <string name="restaurant_agashiye">Agashiye</string>
+    <string name="restaurant_description_agashiye">\'Agashiye\' in Gujarati means on the terrace. This stunning Gujarati Thali restaurant is spread over two huge terraces interconnected by a smaller one that houses a wooden cottage. Agashiye is an iconic restaurant in Ahmedabad. It celebrates Gujarati food, the most varied vegetarian cuisine in India. Agashiye is ranked as one of the top restaurants in Ahmedabad by Zomato, India’s leading restaurant search and discovery service and as one of the ‘ten best restaurants in India’ by both Trip Advisor and NDTV. Your visit to Ahmedabad is incomplete without experiencing a Gujarati meal here.\n\nThe menu changes daily at Agashiye. The food is served in a kansa thali (kansa is an alloy that has many wellness benefits) and the meal starts with a choice of Indian breads and ends with rice. Service is unlimited and the friendly and discreet staff is sure to win your heart. Recently Agashiye has introduced buffet lunch and dinner with Agashiye Express Thali.</string>
+    <string name="restaurant_timings_agashiye">12Noon \- 3:30PM, 7PM \- 11PM</string>
+    <string name="restaurant_contact_number_agashiye">+91 079 2550 6946</string>
+    <string name="restaurant_review_agashiye">4.5</string>
+    <string name="restaurant_freezeland">Freezeland</string>
+    <string name="restaurant_description_freezeland">In operation till as late as 10:45PM, this is a great spot for quick bites. It offers a variety of preparations on the menu from Fast Food, Street Food cuisines at reasonable prices. It is one of the best-recommended restaurants of the area and manages to attract family diners, which helps increase the place\'s appeal.</string>
+    <string name="restaurant_timings_freezeland">11AM \- 10:45PM</string>
+    <string name="restaurant_contact_number_freezeland">+091 079 2640 4044</string>
+    <string name="restaurant_review_freezeland">4.0</string>
+
+</resources>

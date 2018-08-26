@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_12dp"
+        app:cardElevation="@dimen/dimen_4dp">
+
+        <ImageView
+            android:id="@+id/place_restaurant_hotel_photo_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/place_restaurant_hotel_content_description" />
+
+        <View
+            android:id="@+id/overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:alpha="0.6"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:id="@+id/place_restaurant_hotel_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/dimen_8dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_18sp"
+            android:textStyle="bold" />
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

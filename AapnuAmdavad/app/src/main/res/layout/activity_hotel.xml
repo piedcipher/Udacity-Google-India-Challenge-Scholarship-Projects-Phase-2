@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFragmentBackground"
+    android:orientation="vertical"
+    tools:context=".activities.HotelActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/hotels_hotel_photo_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/hotel_content_description" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_12dp"
+                android:text="@string/about_text_view"
+                android:textColor="@color/_424242"
+                android:textSize="@dimen/dimen_24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hotels_hotel_description_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_12dp"
+                android:layout_marginLeft="@dimen/dimen_12dp"
+                android:layout_marginRight="@dimen/dimen_12dp"
+                android:textSize="@dimen/dimen_16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_12dp"
+                android:text="@string/contact_number_text_view"
+                android:textColor="@color/_424242"
+                android:textSize="@dimen/dimen_24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hotels_hotel_contact_number_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_12dp"
+                android:layout_marginLeft="@dimen/dimen_12dp"
+                android:layout_marginRight="@dimen/dimen_12dp"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/dimen_16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_12dp"
+                android:text="@string/rating_text_view"
+                android:textColor="@color/_424242"
+                android:textSize="@dimen/dimen_24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hotels_hotel_rating_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_12dp"
+                android:layout_marginLeft="@dimen/dimen_12dp"
+                android:layout_marginRight="@dimen/dimen_12dp"
+                android:textSize="@dimen/dimen_16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_12dp"
+                android:text="@string/review_text_view"
+                android:textColor="@color/_424242"
+                android:textSize="@dimen/dimen_24sp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/hotels_hotel_review_rating_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_12dp"
+                android:layout_marginLeft="@dimen/dimen_12dp"
+                android:layout_marginRight="@dimen/dimen_12dp"
+                android:numStars="5"
+                android:textSize="@dimen/dimen_16sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
