@@ -368,6 +368,22 @@ This application is a Tour Guide App for [Ahmedabad](https://en.wikipedia.org/wi
 	<img src="https://i.imgur.com/Ibfqvj7.png" alt="Aapnu Amdavad - Tour Guide App [App Video]" />
 </a>
 
+### [Project Review](https://review.udacity.com/#!/reviews/1422505/shared)
+<table border="0">
+	<tr>
+		<td><b>Layout</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/AapnuAmdavad/Project-Review/1_Layout.png" /></td>
+	</tr>
+	<tr>
+		<td><b>Functionality</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/AapnuAmdavad/Project-Review/2_Functionality.png" /></td>
+	</tr>
+	<tr>
+		<td><b>Code Readability</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/AapnuAmdavad/Project-Review/3_CodeReadability.png" /></td>
+	</tr>
+</table>
+
 ### External Library Used
 - [Glide](https://github.com/bumptech/glide)
 
