@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen_8dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <LinearLayout
+        android:id="@+id/render_default_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_60dp"
+        android:layout_margin="@dimen/dimen_8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dimen_16dp"
+        android:paddingTop="@dimen/dimen_16dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/content_description_current_layout_indicator"
+            android:src="@drawable/view_sequential_2" />
+
+        <TextView
+            android:id="@+id/default_layout_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dimen_12dp"
+            android:text="@string/news_view_layout_1"
+            android:textSize="@dimen/dimen_16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/render_card_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_60dp"
+        android:layout_margin="@dimen/dimen_8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dimen_16dp"
+        android:paddingTop="@dimen/dimen_16dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/content_description_current_layout_indicator"
+            android:src="@drawable/view_agenda_2" />
+
+        <TextView
+            android:id="@+id/card_layout_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dimen_12dp"
+            android:drawableRight="@drawable/check"
+            android:text="@string/news_view_layout_2"
+            android:textSize="@dimen/dimen_16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

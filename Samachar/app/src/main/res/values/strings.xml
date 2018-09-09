@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Samachar</string>
+
+    <string name="error_message_1">No Internet!\n\nConnect to Internet and Click on Refresh Button.</string>
+    <string name="error_message_2">News Not Found!</string>
+
+    <string name="menu_item_1">Default Layout</string>
+    <string name="menu_item_2">Card Layout</string>
+    <string name="refresh">Refresh</string>
+
+    <string name="news_view_layout_text">News View Layout</string>
+    <string name="news_view_layout_1">Default Layout</string>
+    <string name="news_view_layout_2">Card Layout</string>
+
+    <string name="content_description_image">Thumbnail of News</string>
+    <string name="content_description_current_layout_indicator">Current Layout Indicator</string>
+</resources>
