@@ -460,6 +460,22 @@ This application is a News Feed App which fetches the news-data from [Guardian A
 	<img src="https://i.imgur.com/6SV7AUm.png" alt="Samachar - News App, Stage 1 [App Video]" />
 </a>
 
+### [Project Review](https://review.udacity.com/#!/reviews/1447286/shared)
+<table border="0">
+	<tr>
+		<td><b>Layout</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/Samachar/Project-Review/1_Layout.png" /></td>
+	</tr>
+	<tr>
+		<td><b>Functionality</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/Samachar/Project-Review/2_Functionality.png" /></td>
+	</tr>
+	<tr>
+		<td><b>Code Readability</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/Samachar/Project-Review/3_CodeReadability.png" /></td>
+	</tr>
+</table>
+
 ### External Library Used
 - [Glide](https://github.com/bumptech/glide)
 
