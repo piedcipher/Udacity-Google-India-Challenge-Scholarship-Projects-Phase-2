@@ -21,7 +21,7 @@
     <string name="settings_search_terms_value">github,linux,android,pizza,beer,web</string>
     <string name="settings_order_by_label">Order By</string>
     <string name="settings_order_by_key">order_by</string>
-    <string name="settings_order_by_value">@string/settings_newest_order_by_label</string>
+    <string name="settings_order_by_value">@string/settings_newest_order_by_value</string>
     <string name="settings_newest_order_by_label">Newest</string>
     <string name="settings_newest_order_by_value">newest</string>
     <string name="settings_oldest_order_by_label">Oldest</string>
