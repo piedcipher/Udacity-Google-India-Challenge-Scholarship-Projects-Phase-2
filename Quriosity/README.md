@@ -51,7 +51,7 @@ This application is a quiz app. Theme/Topic of the app is - **Interesting Facts 
 </table>
 
 ## Working Demo
-<a href="https://www.youtube.com/watch?v=OmxZW7wJ2K0" target="_blank">
+<a href="https://youtu.be/jpzfmQRh9bA" target="_blank">
 	<img src="https://i.imgur.com/HsSahpE.png" alt="Quriosity - Quiz app [App Video]" />
 </a>
 

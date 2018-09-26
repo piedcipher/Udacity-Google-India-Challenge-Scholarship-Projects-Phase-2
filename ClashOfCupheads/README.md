@@ -32,7 +32,7 @@ This application is a score keeper app, inspired by an indie video-game - <b><a 
 </table>
 
 ## Working Demo
-<a href="https://www.youtube.com/watch?v=r614gx4Z7HE" target="_blank">
+<a href="https://youtu.be/m9MV9xoH6ZQ" target="_blank">
 	<img src="https://i.imgur.com/yWPtqOQ.png" alt="Clash Of Cupheads - Score Keeper app [App Video]" />
 </a>
 

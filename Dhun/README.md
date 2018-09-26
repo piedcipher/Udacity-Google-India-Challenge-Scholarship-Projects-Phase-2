@@ -43,7 +43,7 @@ This application is a Structure of a Music Player, so It's not an actual Music P
 </table>
 
 ## Working Demo
-<a href="https://youtu.be/m71UnelwTf8" target="_blank">
+<a href="https://youtu.be/IvSMa0Lu3W0" target="_blank">
 	<img src="https://i.imgur.com/hujwoim.png" alt="Dhun - Musical Structure app [App Video]" />
 </a>
 

@@ -54,7 +54,7 @@ This application is a Tour Guide App for [Ahmedabad](https://en.wikipedia.org/wi
 </table>
 
 ## Working Demo
-<a href="https://youtu.be/iJgRLNBPtkA" target="_blank">
+<a href="https://youtu.be/3C8s3GVH_5M" target="_blank">
 	<img src="https://i.imgur.com/Ibfqvj7.png" alt="Aapnu Amdavad - Tour Guide App [App Video]" />
 </a>
 
