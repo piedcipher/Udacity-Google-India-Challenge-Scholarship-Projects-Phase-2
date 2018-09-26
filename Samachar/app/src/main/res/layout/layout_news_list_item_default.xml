@@ -16,13 +16,14 @@
             android:orientation="horizontal">
 
             <ImageView
+                android:background="@color/_757575"
                 android:id="@+id/thumbnail"
                 android:layout_width="@dimen/dimen_120dp"
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/dimen_8dp"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/content_description_image"
-                android:scaleType="fitXY" />
+                android:scaleType="centerCrop" />
 
             <LinearLayout
                 android:layout_width="match_parent"

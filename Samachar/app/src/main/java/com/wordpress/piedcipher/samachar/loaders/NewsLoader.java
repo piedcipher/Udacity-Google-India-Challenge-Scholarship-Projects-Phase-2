@@ -10,12 +10,15 @@ import java.util.List;
 
 public class NewsLoader extends AsyncTaskLoader<List<News>> {
 
-    public NewsLoader(Context context) {
+    private String url;
+
+    public NewsLoader(Context context, String url) {
         super(context);
+        this.url = url;
     }
 
     @Override
     public List<News> loadInBackground() {
-        return Utils.fetchNewsFromApi();
+        return Utils.fetchNewsFromApi(url);
     }
 }

@@ -2,11 +2,12 @@
     <string name="app_name">Samachar</string>
 
     <string name="error_message_1">No Internet!\n\nConnect to Internet and Click on Refresh Button.</string>
-    <string name="error_message_2">News Not Found!</string>
+    <string name="error_message_2">News Not Found!\n\nPlease try again by Changing Settings.</string>
 
     <string name="menu_item_1">Default Layout</string>
     <string name="menu_item_2">Card Layout</string>
     <string name="refresh">Refresh</string>
+    <string name="settings">Settings</string>
 
     <string name="news_view_layout_text">News View Layout</string>
     <string name="news_view_layout_1">Default Layout</string>
@@ -14,4 +15,29 @@
 
     <string name="content_description_image">Thumbnail of News</string>
     <string name="content_description_current_layout_indicator">Current Layout Indicator</string>
+
+    <string name="settings_search_terms_label">Search Terms</string>
+    <string name="settings_search_terms_key">search_terms</string>
+    <string name="settings_search_terms_value">github,linux,android,pizza,beer,web</string>
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key">order_by</string>
+    <string name="settings_order_by_value">@string/settings_newest_order_by_label</string>
+    <string name="settings_newest_order_by_label">Newest</string>
+    <string name="settings_newest_order_by_value">newest</string>
+    <string name="settings_oldest_order_by_label">Oldest</string>
+    <string name="settings_oldest_order_by_value">oldest</string>
+    <string name="settings_relevance_order_by_label">Relevance</string>
+    <string name="settings_relevance_order_by_value">relevance</string>
+
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_newest_order_by_label</item>
+        <item>@string/settings_oldest_order_by_label</item>
+        <item>@string/settings_relevance_order_by_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_newest_order_by_value</item>
+        <item>@string/settings_oldest_order_by_value</item>
+        <item>@string/settings_relevance_order_by_value</item>
+    </string-array>
 </resources>

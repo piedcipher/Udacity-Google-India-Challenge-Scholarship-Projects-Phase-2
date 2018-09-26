@@ -26,19 +26,17 @@ import java.util.List;
 public class Utils {
 
     private final static String TAG = Utils.class.getName();
-    private final static String API_KEY = "f826acc7-efd2-4e78-8bca-37ae59f6edfd";
-    private final static String SEARCH_TERMS = "github,linux,android,pizza,beer,web";
-    private final static String API_BASE_URL = "https://content.guardianapis.com/search?api-key=" + API_KEY + "&show-fields=headline,thumbnail&show-tags=contributor&q=" + SEARCH_TERMS;
+    public final static String API_BASE_URL = "https://content.guardianapis.com/search?api-key=f826acc7-efd2-4e78-8bca-37ae59f6edfd&show-fields=headline,thumbnail&show-tags=contributor";
 
     /**
      * @return parsed JSON from String JSON
      */
-    public static List<News> fetchNewsFromApi() {
+    public static List<News> fetchNewsFromApi(String url) {
         String jsonResponseString = null;
         Log.d(TAG, buildURL(API_BASE_URL).toString());
 
         try {
-            jsonResponseString = makeHttpRequest(buildURL(API_BASE_URL));
+            jsonResponseString = makeHttpRequest(buildURL(url));
         } catch (IOException e) {
             Log.e(TAG, "IOException occurred while making Http Request.");
         }

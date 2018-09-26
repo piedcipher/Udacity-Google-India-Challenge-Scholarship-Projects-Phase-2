@@ -15,6 +15,7 @@ My Projects :pencil: for Udacity Google India Challenge Scholarship :mortar_boar
 | 4 | [Dhun](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/tree/master/Dhun) | Musical Structure app |
 | 5 | [Aapnu Amdavad](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/tree/master/AapnuAmdavad) | Tour Guide app |
 | 6 | [Samachar](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/tree/master/Samachar) | News app, Stage 1 |
+| 7 | [Samachar](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/tree/master/Samachar) | News app, Stage 2 |
 
 ---
 
@@ -99,7 +100,7 @@ This application is a score keeper app, inspired by an indie video-game - <b><a 
 </table>
 
 ### Working Demo
-<a href="https://www.youtube.com/watch?v=r614gx4Z7HE" target="_blank">
+<a href="https://youtu.be/m9MV9xoH6ZQ" target="_blank">
 	<img src="https://i.imgur.com/yWPtqOQ.png" alt="Clash Of Cupheads - Score Keeper app [App Video]" />
 </a>
 
@@ -182,7 +183,7 @@ This application is a quiz app. Theme/Topic of the app is - **Interesting Facts 
 </table>
 
 ### Working Demo
-<a href="https://www.youtube.com/watch?v=OmxZW7wJ2K0" target="_blank">
+<a href="https://youtu.be/jpzfmQRh9bA" target="_blank">
 	<img src="https://i.imgur.com/HsSahpE.png" alt="Quriosity - Quiz app [App Video]" />
 </a>
 
@@ -258,7 +259,7 @@ This application is a Structure of a Music Player, so It's not an actual Music P
 </table>
 
 ### Working Demo
-<a href="https://youtu.be/m71UnelwTf8" target="_blank">
+<a href="https://youtu.be/IvSMa0Lu3W0" target="_blank">
 	<img src="https://i.imgur.com/hujwoim.png" alt="Dhun - Musical Structure app [App Video]" />
 </a>
 
@@ -365,7 +366,7 @@ This application is a Tour Guide App for [Ahmedabad](https://en.wikipedia.org/wi
 </table>
 
 ### Working Demo
-<a href="https://youtu.be/iJgRLNBPtkA" target="_blank">
+<a href="https://youtu.be/3C8s3GVH_5M" target="_blank">
 	<img src="https://i.imgur.com/Ibfqvj7.png" alt="Aapnu Amdavad - Tour Guide App [App Video]" />
 </a>
 
@@ -456,7 +457,7 @@ This application is a News Feed App which fetches the news-data from [Guardian A
 </table>
 
 ### Working Demo
-<a href="https://youtu.be/JCzcnmp3yBQ" target="_blank">
+<a href="https://youtu.be/oA5e4sv44yM" target="_blank">
 	<img src="https://i.imgur.com/6SV7AUm.png" alt="Samachar - News App, Stage 1 [App Video]" />
 </a>
 
@@ -492,3 +493,68 @@ This application is a News Feed App which fetches the news-data from [Guardian A
 * Special Thanks to [Paolo Rotolo](https://medium.com/@paolorotolo) for this Awesome [Article](https://medium.com/glucosio-project/moving-from-dialogs-to-bottomsheetdialogs-on-android-15fb8d140295) on BottomSheetDialogs in Android.
 
 ---
+
+# [Project 7 - Samachar - News App, Stage 2](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/tree/master/Samachar)
+
+The goal is to add a Settings Screen to the News App, Stage 1 which will allow users to narrow down the stories displayed in from the feed.
+
+### About
+This application is a News Feed App which fetches the news-data from [Guardian API](https://open-platform.theguardian.com/documentation/) and displays it in a List format and provides various Settings in app, a way for users to adjust preferences in app.
+
+### App Screenshots
+<table>
+	<tr>
+		<td>
+			<img width="300" src="https://i.imgur.com/08B5HNF.png" alt="Samachar - News App, Stage 2 [App Screenshot]" />
+		</td>
+		<td>
+			<img width="300" src="https://i.imgur.com/ymezFmS.png" alt="Samachar - News App, Stage 2 [App Screenshot]" />
+		</td>
+		<td>
+			<img width="300" src="https://i.imgur.com/xg43ueV.png" alt="Samachar - News App, Stage 2 [App Screenshot]" />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img width="300" src="https://i.imgur.com/y9rrbWl.png" alt="Samachar - News App, Stage 2 [App Screenshot]" />
+		</td>
+		<td>
+			<img width="300" src="https://i.imgur.com/BIUJQyI.png" alt="Samachar - News App, Stage 2 [App Screenshot]" />
+		</td>
+		<td>
+			<img width="300" src="https://i.imgur.com/eYpyFFE.png" alt="Samachar - News App, Stage 2 [App Screenshot]" />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img width="300" src="https://i.imgur.com/r8xHLmP.png" alt="Samachar - News App, Stage 2 [App Screenshot]" />
+		</td>
+		<td>
+			<img width="300" src="https://i.imgur.com/zPmMkI5.png" alt="Samachar - News App, Stage 2 [App Screenshot]" />
+		</td>
+		<td>
+			<img width="300" src="https://i.imgur.com/hHcZZ78.png" alt="Samachar - News App, Stage 2 [App Screenshot]" />
+		</td>
+	</tr>
+</table>
+
+### Working Demo
+<a href="https://youtu.be/67ahhhJSOU0" target="_blank">
+	<img src="https://imgur.com/oXIb4RA.png" alt="Samachar - News App, Stage 2 [App Video]" />
+</a>
+
+### External Library Used
+- [Glide](https://github.com/bumptech/glide)
+
+### Credits
+| Drawable | Source |
+| --- | --- |
+| [check.xml](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/blob/master/Samachar/app/src/main/res/drawable/check.xml) |  [Source](https://materialdesignicons.com/icon/check)|
+| [refresh.xml](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/blob/master/Samachar/app/src/main/res/drawable/refresh.xml) |  [Source](https://materialdesignicons.com/icon/refresh)|
+| [view_agenda.xml](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/blob/master/Samachar/app/src/main/res/drawable/view_agenda.xml) |  [Source](https://materialdesignicons.com/icon/view-agenda)|
+| [view_sequential.xml](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/blob/master/Samachar/app/src/main/res/drawable/view_sequential.xml) |  [Source](https://materialdesignicons.com/icon/view-sequential)|
+| [settings.xml](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/blob/master/Samachar/app/src/main/res/drawable/settings.xml) |  [Source](https://materialdesignicons.com/icon/settings)|
+
+* App Icon created using [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html) made by [Roman Nurik](https://github.com/romannurik)
+
+* Special Thanks to [Paolo Rotolo](https://medium.com/@paolorotolo) for this Awesome [Article](https://medium.com/glucosio-project/moving-from-dialogs-to-bottomsheetdialogs-on-android-15fb8d140295) on BottomSheetDialogs in Android.

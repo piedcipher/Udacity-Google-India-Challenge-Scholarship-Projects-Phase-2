@@ -12,13 +12,16 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.NewsActivity" android:theme="@style/NoActionbarTheme">
+        <activity
+            android:name=".activities.NewsActivity"
+            android:theme="@style/NoActionbarTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:parentActivityName=".activities.NewsActivity" android:name=".activities.SettingsActivity" />
     </application>
 
 </manifest>

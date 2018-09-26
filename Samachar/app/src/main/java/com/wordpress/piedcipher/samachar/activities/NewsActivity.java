@@ -3,7 +3,9 @@ package com.wordpress.piedcipher.samachar.activities;
 import android.app.LoaderManager;
 import android.content.Intent;
 import android.content.Loader;
+import android.content.SharedPreferences;
 import android.net.Uri;
+import android.preference.PreferenceManager;
 import android.support.design.widget.BottomSheetDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -34,6 +36,7 @@ public class NewsActivity extends AppCompatActivity implements LoaderManager.Loa
     private int listItemLayoutResource = R.layout.layout_news_list_item_card;
     private MenuItem currentLayoutMenuItem;
     private MenuItem refreshMenuItem;
+    private MenuItem settingsMenuItem;
 
     private NewsAdapter newsAdapter;
     private List<News> newsList;
@@ -55,6 +58,7 @@ public class NewsActivity extends AppCompatActivity implements LoaderManager.Loa
         getMenuInflater().inflate(R.menu.menu_main, menu);
         currentLayoutMenuItem = menu.findItem(R.id.current_layout);
         refreshMenuItem = menu.findItem(R.id.refresh);
+        settingsMenuItem = menu.findItem(R.id.settings);
 
         if (!Utils.checkNetworkStatus(this)) {
             refreshMenuItem.setVisible(true);
@@ -81,6 +85,10 @@ public class NewsActivity extends AppCompatActivity implements LoaderManager.Loa
             case R.id.refresh:
                 progressBar.setVisibility(View.VISIBLE);
                 initializer();
+                return true;
+
+            case R.id.settings:
+                startActivity(new Intent(this, SettingsActivity.class));
                 return true;
         }
 
@@ -195,7 +203,17 @@ public class NewsActivity extends AppCompatActivity implements LoaderManager.Loa
 
     @Override
     public Loader<List<News>> onCreateLoader(int i, Bundle bundle) {
-        return new NewsLoader(this);
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+        String searchTerms = sharedPreferences.getString(getString(R.string.settings_search_terms_key), getString(R.string.settings_search_terms_value));
+        String orderBy = sharedPreferences.getString(getString(R.string.settings_order_by_key), getString(R.string.settings_order_by_value));
+
+        String url = Uri.parse(Utils.API_BASE_URL)
+                .buildUpon()
+                .appendQueryParameter("q", searchTerms)
+                .appendQueryParameter("order-by", orderBy)
+                .toString();
+
+        return new NewsLoader(this, url);
     }
 
     @Override
@@ -209,12 +227,19 @@ public class NewsActivity extends AppCompatActivity implements LoaderManager.Loa
                 if (currentLayoutMenuItem != null) {
                     currentLayoutMenuItem.setVisible(false);
                 }
+                if (settingsMenuItem != null) {
+                    settingsMenuItem.setVisible(true);
+                }
                 return;
             }
 
             if (currentLayoutMenuItem != null) {
                 currentLayoutMenuItem.setVisible(true);
+                if (settingsMenuItem != null) {
+                    settingsMenuItem.setVisible(true);
+                }
             }
+
             newsAdapter = new NewsAdapter(getApplicationContext(), newsList, listItemLayoutResource);
             newsListView.setAdapter(newsAdapter);
             newsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -228,6 +253,8 @@ public class NewsActivity extends AppCompatActivity implements LoaderManager.Loa
 
     @Override
     public void onLoaderReset(Loader<List<News>> loader) {
-        newsAdapter.clear();
+        if (newsAdapter != null) {
+            newsAdapter.clear();
+        }
     }
 }
