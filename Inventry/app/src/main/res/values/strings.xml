@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Inventry</string>
+
+    <string name="menu_item_add_dummy_product">Add a Dummy Product</string>
+    <string name="empty_view_text">No Products! Click on Plus icon to add a Dummy Product.</string>
+    <string name="check_android_log">Check Android Log (Info) for Viewing Results</string>
+    <string name="toast_success_message">Product added Successfully</string>
+    <string name="toast_error_message">Error occurred while adding Product.</string>
+</resources>
