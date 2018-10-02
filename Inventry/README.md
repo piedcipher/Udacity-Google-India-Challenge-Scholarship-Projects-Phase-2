@@ -25,6 +25,22 @@ This application is an Inventory App which stores the information about Products
 	<img src="https://i.imgur.com/KfLbe1u.png" alt="Inventry - Inventory App, Stage 1 [App Video]" />
 </a>
 
+## [Project Review](https://review.udacity.com/#!/reviews/1485422/shared)
+<table border="0">
+	<tr>
+		<td><b>Layout</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/Inventry/Project-Review/1_Layout.png" /></td>
+	</tr>
+	<tr>
+		<td><b>Functionality</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/Inventry/Project-Review/2_Functionality.png" /></td>
+	</tr>
+	<tr>
+		<td><b>Code Readability</b></td>
+		<td><img src="https://raw.githubusercontent.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/master/Inventry/Project-Review/3_CodeReadability.png" /></td>
+	</tr>
+</table>
+
 ## Credits
 | Drawable | Source |
 | --- | --- |
