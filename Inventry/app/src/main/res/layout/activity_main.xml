@@ -5,11 +5,27 @@
     android:layout_height="match_parent"
     tools:context=".activities.MainActivity">
 
+    <ListView
+        android:id="@+id/products_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true" />
+
     <TextView
+        android:id="@+id/empty_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:text="@string/check_android_log" />
+        android:text="@string/empty_view_text" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/dimen_16dp"
+        android:src="@drawable/plus" />
 
 </RelativeLayout>

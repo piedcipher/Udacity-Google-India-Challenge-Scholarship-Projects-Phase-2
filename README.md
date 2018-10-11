@@ -17,6 +17,7 @@ My Projects :pencil: for Udacity Google India Challenge Scholarship :mortar_boar
 | 6 | [Samachar](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/tree/master/Samachar) | News app, Stage 1 |
 | 7 | [Samachar](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/tree/master/Samachar) | News app, Stage 2 |
 | 8 | [Inventry](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/tree/master/Inventry) | Inventory app, Stage 1 |
+| 9 | [Inventry](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/tree/master/Inventry) | Inventory app, Stage 2 |
 
 ---
 
@@ -630,3 +631,44 @@ This application is an Inventory App which stores the information about Products
 * App Icon created using [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html) made by [Roman Nurik](https://github.com/romannurik)
 
 ---
+
+# [Project 9 - Inventry - Inventory App, Stage 2](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/tree/master/Inventry)
+
+The goal is to design and create the structure of an Inventory App which would allow a store to keep track of its inventory. In this stage, build out the app UI for users to add, update and remove inventory and display data in ListView using CursorAdapter.
+
+### About
+This application is an Inventory App which stores the information about Products in a SQLite Database & User can Read, Add, Update & Delete Products from a SQLite Database.
+
+### App Screenshots
+<table>
+	<tr>
+		<td>
+			<img width="300" src="https://i.imgur.com/ibYfwx3.png" alt="Inventry - Inventory App, Stage 2 [App Screenshot]" />
+		</td>
+		<td>
+			<img width="300" src="https://i.imgur.com/rXW4qKt.png" alt="Inventry - Inventory App, Stage 2 [App Screenshot]" />
+		</td>
+		<td>
+			<img width="300" src="https://i.imgur.com/JtwG6uA.png" alt="Inventry - Inventory App, Stage 2 [App Screenshot]" />
+		</td>
+		<td>
+			<img width="300" src="https://i.imgur.com/Suwq4DY.png" alt="Inventry - Inventory App, Stage 2 [App Screenshot]" />
+		</td>
+	</tr>
+</table>
+
+### Working Demo
+<a href="https://youtu.be/5weP2dddkvo" target="_blank">
+	<img src="https://i.imgur.com/kDlXcCu.png" alt="Inventry - Inventory App, Stage 2 [App Video]" />
+</a>
+
+### Credits
+| Drawable | Source |
+| --- | --- |
+| [plus.xml](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/blob/master/Inventry/app/src/main/res/drawable/plus.xml) |  [Source](https://materialdesignicons.com/icon/plus)|
+| [delete.xml](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/blob/master/Inventry/app/src/main/res/drawable/delete.xml) |  [Source](https://materialdesignicons.com/icon/delete)|
+| [check.xml](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/blob/master/Inventry/app/src/main/res/drawable/check.xml) |  [Source](https://materialdesignicons.com/icon/check)|
+| [minus.xml](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/blob/master/Inventry/app/src/main/res/drawable/minus.xml) |  [Source](https://materialdesignicons.com/icon/minus)|
+
+
+* App Icon created using [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html) made by [Roman Nurik](https://github.com/romannurik)

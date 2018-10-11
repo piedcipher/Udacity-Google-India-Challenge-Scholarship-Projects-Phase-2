@@ -1,9 +1,49 @@
 <resources>
     <string name="app_name">Inventry</string>
 
-    <string name="menu_item_add_dummy_product">Add a Dummy Product</string>
-    <string name="empty_view_text">No Products! Click on Plus icon to add a Dummy Product.</string>
+    <string name="menu_item_add_product">Add Product</string>
+    <string name="menu_item_update_product">Update Product</string>
+    <string name="menu_item_delete_product">Delete Product</string>
+    <string name="empty_view_text">No Products!\n\nClick on Plus icon to add a Dummy Product.</string>
     <string name="check_android_log">Check Android Log (Info) for Viewing Results</string>
     <string name="toast_success_message">Product added Successfully</string>
     <string name="toast_error_message">Error occurred while adding Product.</string>
+    <string name="toast_success_message_edit">Product updated Successfully</string>
+    <string name="toast_error_message_edit">Error occurred while updating Product.</string>
+    <string name="toast_success_message_delete">Product deleted Successfully</string>
+    <string name="toast_error_message_delete">Error occurred while deleting Product.</string>
+
+    <string name="sell_button">Sell</string>
+    <string name="order_button">Order</string>
+    <string name="last_product_sell_warning">Can\'t Sell! Product is out of stock!</string>
+
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Price</string>
+    <string name="product_quantity">Quantity</string>
+    <string name="product_supplier_name">Supplier Name</string>
+    <string name="product_supplier_phone">Supplier Phone</string>
+    <string name="quantity_increase_button">+1</string>
+    <string name="quantity_decrease_button">-1</string>
+    <string name="content_description_quantity_increase">Increase Quantity by One</string>
+    <string name="content_description_quantity_decrease">Decrease quantity by One</string>
+
+    <string name="edit_product_title">Edit Product</string>
+    <string name="add_product_title">Add Product</string>
+
+    <string name="dialog_unsave_changes">You\'ve un-save changes!</string>
+    <string name="toast_no_new_changes">No new changes were made!</string>
+    <string name="dialog_response_discard">Discard</string>
+    <string name="dialog_response_keep_editing">Keep Editing</string>
+
+    <string name="product_name_toast">Product Name is required!</string>
+    <string name="product_price_toast">Price is required!</string>
+    <string name="product_quantity_toast">Quantity is required!</string>
+    <string name="product_supplier_name_toast">Supplier Name is required!</string>
+    <string name="product_supplier_phone_toast">Supplier Phone is required!</string>
+    <string name="product_supplier_phone_toast_2">Supplier phone-number should be of length 10!</string>
+
+    <string name="dialog_delete_product">Do you want to delete this product?</string>
+    <string name="dialog_delete_product_response_yes">Yes</string>
+    <string name="dialog_delete_product_response_no">No</string>
+
 </resources>

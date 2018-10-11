@@ -1,23 +1,28 @@
 package com.wordpress.piedcipher.inventry.activities;
 
-import android.content.ContentValues;
+import android.content.ContentUris;
+import android.content.Intent;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
+import android.app.LoaderManager;
+import android.content.CursorLoader;
+import android.content.Loader;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.Toast;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
+import android.widget.TextView;
 
 import com.wordpress.piedcipher.inventry.R;
+import com.wordpress.piedcipher.inventry.adapter.InventryCursorAdapter;
 import com.wordpress.piedcipher.inventry.data.InventryContract.ProductEntry;
-import com.wordpress.piedcipher.inventry.data.InventryDatabaseHelper;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 
-    private InventryDatabaseHelper inventryDatabaseHelper;
-    private static final String LOG_TAG = MainActivity.class.getSimpleName() + "Info";
+    private InventryCursorAdapter inventryCursorAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,70 +32,60 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initializer() {
-        inventryDatabaseHelper = new InventryDatabaseHelper(this);
-        readProducts();
+        FloatingActionButton floatingActionButton = findViewById(R.id.fab);
+        ListView productListView = findViewById(R.id.products_list);
+        TextView emptyTextView = findViewById(R.id.empty_text_view);
+        productListView.setEmptyView(emptyTextView);
+
+        inventryCursorAdapter = new InventryCursorAdapter(this, null);
+        productListView.setAdapter(inventryCursorAdapter);
+        getLoaderManager().initLoader(1, null, this);
+
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, EditorActivity.class));
+            }
+        });
+
+        productListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                startActivity(new Intent(getApplicationContext(), EditorActivity.class)
+                        .setData(ContentUris.withAppendedId(ProductEntry.CONTENT_URI, l)));
+            }
+        });
+    }
+
+    @NonNull
+    @Override
+    public Loader<Cursor> onCreateLoader(int i, @Nullable Bundle bundle) {
+        String[] projection = {
+                ProductEntry.ID,
+                ProductEntry.COLUMN_PRODUCT_NAME,
+                ProductEntry.COLUMN_PRICE,
+                ProductEntry.COLUMN_QUANTITY,
+                ProductEntry.COLUMN_SUPPLIER_NAME,
+                ProductEntry.COLUMN_SUPPLIER_PHONE_NUMBER
+        };
+
+        return new CursorLoader(
+                this,
+                ProductEntry.CONTENT_URI,
+                projection,
+                null,
+                null,
+                null
+        );
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
+    public void onLoadFinished(@NonNull Loader<Cursor> loader, Cursor cursor) {
+        inventryCursorAdapter.swapCursor(cursor);
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.add_product:
-                addProduct();
-                break;
-        }
-        return true;
-    }
-
-    private void addProduct() {
-        SQLiteDatabase sqLiteDatabase = inventryDatabaseHelper.getWritableDatabase();
-
-        ContentValues contentValues = new ContentValues();
-        contentValues.put(ProductEntry.COLUMN_PRODUCT_NAME, "Mi A1");
-        contentValues.put(ProductEntry.COLUMN_PRICE, 15000);
-        contentValues.put(ProductEntry.COLUMN_QUANTITY, 6);
-        contentValues.put(ProductEntry.COLUMN_SUPPLIER_NAME, "Mi");
-        contentValues.put(ProductEntry.COLUMN_SUPPLIER_PHONE_NUMBER, "1234567890");
-
-        long id = sqLiteDatabase.insert(ProductEntry.TABLE_NAME, null, contentValues);
-        if (id != -1) {
-            Toast.makeText(this, R.string.toast_success_message, Toast.LENGTH_SHORT).show();
-        } else {
-            Toast.makeText(this, R.string.toast_error_message, Toast.LENGTH_SHORT).show();
-        }
-
-        readProducts();
-    }
-
-    private void readProducts() {
-        SQLiteDatabase sqLiteDatabase = inventryDatabaseHelper.getReadableDatabase();
-
-        int counter = 0;
-        Cursor cursor = sqLiteDatabase.query(ProductEntry.TABLE_NAME, null, null, null, null, null, null);
-        try {
-            while (cursor.moveToNext()) {
-                int id = cursor.getInt(cursor.getColumnIndex(ProductEntry.ID));
-                String productName = cursor.getString(cursor.getColumnIndex(ProductEntry.COLUMN_PRODUCT_NAME));
-                int price = cursor.getInt(cursor.getColumnIndex(ProductEntry.COLUMN_PRICE));
-                int quantity = cursor.getInt(cursor.getColumnIndex(ProductEntry.COLUMN_QUANTITY));
-                String supplierName = cursor.getString(cursor.getColumnIndex(ProductEntry.COLUMN_SUPPLIER_NAME));
-                String supplierPhoneNumber = cursor.getString(cursor.getColumnIndex(ProductEntry.COLUMN_SUPPLIER_PHONE_NUMBER));
-
-                Log.i(LOG_TAG, id + " " + productName + " " + quantity + " " + price + " " + supplierName + " " + supplierPhoneNumber);
-                counter++;
-            }
-        } finally {
-            cursor.close();
-            Log.i(LOG_TAG, "-----");
-            if (counter == 0) {
-                Log.i(LOG_TAG, getString(R.string.empty_view_text));
-                Toast.makeText(this, R.string.empty_view_text, Toast.LENGTH_SHORT).show();
-            }
-        }
+    public void onLoaderReset(@NonNull Loader<Cursor> loader) {
+        inventryCursorAdapter.swapCursor(null);
     }
 }

@@ -16,6 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name=".data.InventryProvider"
+            android:authorities="com.wordpress.piedcipher.inventry"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.EditorActivity"
+            android:parentActivityName=".activities.MainActivity"
+            android:windowSoftInputMode="stateHidden" />
     </application>
 
 </manifest>
