@@ -1,7 +1,13 @@
 # Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2
-My Projects :pencil: for Udacity Google India Challenge Scholarship :mortar_board: in Android Basics Course :ledger: for Phase 2 (Still Adding Projects :bulb:) 
+My Projects :pencil: for Udacity Google India Challenge Scholarship :mortar_board: in Android Basics Course :ledger: for Phase 2 (Graduated from ABND on 12th October :mortar_board: :tada:)
 
+## Scholarship Badge
 ![My Scholarship Badge](https://github.com/piedcipher/Udacity-Google-India-Challenge-Scholarship-Projects-Phase-2/blob/master/Scholarship-Badge.png)
+
+## Android Basics Nanodegree Certificate
+<a href="https://confirm.udacity.com/EEVATUPY">
+	<img align="My Android Basics Nanodegree Certificate" src="ABND-Certificate.svg" />
+</a>
 
 ---
 
